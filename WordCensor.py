@@ -13,4 +13,4 @@ for word in TextSet:            #Iterates through TextSet and Censors the words
     DataSet=CensoreWordRegx.sub('*'*len(word),DataSet)
 
 pyperclip.copy(DataSet)
-print "\nDone. Successfully Processed! Check Your Clipboard."
+print "\nDone. Successfully Processed! Check Your Clipboard.\n"
