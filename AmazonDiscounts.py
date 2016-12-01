@@ -13,7 +13,7 @@ nodeDict={"Books":976390031,
 "Clothing":1355016031};
 
 if len(sys.argv)<0:
-    print "No input! Enter the Product Section and Discount range (Space saperated)"
+    print "No input! Enter the Product Section and Discount range (Space saperated)."
 else:
     inputString=sys.argv
     refernceString="https://www.amazon.in/gp/search/?node="+str(nodeDict[inputString[1]])+"&pct-off="+inputString[2]
