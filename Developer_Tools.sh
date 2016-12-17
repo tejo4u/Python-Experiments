@@ -5,5 +5,3 @@
 
 #Clear the Screen before Starting the Install
 clear
-
-#Change the server to main server for update
