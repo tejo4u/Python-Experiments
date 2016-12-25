@@ -47,7 +47,3 @@ sudo apt-get -y install atom
 
 #Install haskell
 sudo apt-get -y install haskell-platform
-
-#Additonal (Terminator terminal)
-sudo add-apt-repository ppa:nilarimogard/webupd8 -y && sudo apt-get -y update
-sudo apt-get install terminator
