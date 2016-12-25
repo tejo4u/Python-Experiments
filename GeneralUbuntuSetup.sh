@@ -1,8 +1,7 @@
 #!/bin/sh
 
 # Author Gajesh Bhat
-#Shell Scipt to Setup freshly Installed Ubuntu System.
-
+#Shell Scipt to Setup freshy Installed Ubuntu System.
 #Clear the Screen before Starting the Install
 clear
 

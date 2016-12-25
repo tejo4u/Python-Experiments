@@ -25,14 +25,6 @@ sudo apt-get -y install clang
 #Installing Git
 sudo apt-get -y install git
 
-#Configure git
-printf "Github Basic Account Info Setup...\n1.Enter Your Account User Name\n"
-read git_username
-git config --global user.name git_username
-printf "\n2.Enter Your Account Email Id\n"
-read git_useremail
-git config --global user.email git_useremail
-
 #Install C++14 Support for g++ and gcc
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
 sudo apt-get -y update
